@@ -1,0 +1,334 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>DevLit</title>
+  </head>
+
+  <body>
+    <div class="layout">
+      <aside class="dashboard">
+        <h1 class="logo"><i class="fa-solid fa-diamond"></i> DevLit</h1>
+
+        <nav class="primary-nav">
+          <ul>
+            <li>
+              <a href="#"><i class="fa-solid fa-house"></i>Dashboard</a>
+            </li>
+            <li>
+              <a href="#"><i class="fa-solid fa-briefcase"></i>Projects</a>
+            </li>
+            <li>
+              <a href="#"><i class="fa-solid fa-users"></i>Clients</a>
+            </li>
+            <li>
+              <a href="#"><i class="fa-solid fa-chart-line"></i>Analytics</a>
+            </li>
+            <li>
+              <a href="#"><i class="fa-solid fa-file-invoice"></i>Invoices</a>
+            </li>
+            <li>
+              <a href="#"><i class="fa-solid fa-comments"></i>Messages</a>
+            </li>
+            <li>
+              <a href="#"><i class="fa-solid fa-gear"></i> Settings</a>
+            </li>
+          </ul>
+        </nav>
+
+        <div class="logout-btn">
+          <button>
+            <i class="fa-solid fa-arrow-right-from-bracket"></i>Logout
+          </button>
+        </div>
+      </aside>
+
+      <div class="pro-plan">
+        <div class="icon"><i class="fa-solid fa-crown"></i></div>
+        <h3>Upgrade to Pro</h3>
+        <p>Unlock all features and get unlimited access.</p>
+        <button>Upgrade Now</button>
+      </div>
+    </div>
+
+    <!-- MAIN LAYOUT -->
+
+    <div class="main-area">
+      <header>
+        <div class="search">
+          <button><i class="fa-solid fa-bars"></i></button>
+          <div class="search-aid">
+            <label for="search" class="visually-hidden">
+              <i class="fa-solid fa-search"></i>
+            </label>
+            <input
+              type="search"
+              name="search"
+              id="search"
+              placeholder="Search for anything..."
+            />
+          </div>
+        </div>
+
+        <div class="profile">
+          <i class="fa-solid fa-bell"><span class="badge">3</span></i>
+
+          <figure>
+            <img src="./Img/profile.jpg" alt="profile-image" />
+          </figure>
+
+          <h4>
+            John Doe <br />
+            <span class="name">Admin</span>
+          </h4>
+        </div>
+      </header>
+
+      <!-- CONTAINER AFTER HEADING -->
+
+      <main class="container">
+        <div class="greetings">
+          <h2>Welcome back, Vee 👋</h2>
+          <p>Here's what's happening with your business today.</p>
+        </div>
+
+        <div class="stats">
+          <div class="growth-card">
+            <div class="sign-icon">
+              <i class="fa-solid fa-dollar-sign"></i>
+            </div>
+
+            <div class="card-content">
+              <h3 class="rev">Total Revenue</h3>
+              <p class="price">$12,450</p>
+              <small>↑ 18% this month</small>
+            </div>
+          </div>
+
+          <div class="growth-card">
+            <div class="sign-icon">
+              <i class="fa-solid fa-users"></i>
+            </div>
+
+            <div class="card-content">
+              <h3 class="rev">Active clients</h3>
+              <p class="price">248</p>
+              <small>↑ 14% this month</small>
+            </div>
+          </div>
+
+          <div class="growth-card">
+            <div class="sign-icon">
+              <i class="fa-solid fa-briefcase"></i>
+            </div>
+
+            <div class="card-content">
+              <h3 class="rev">Pending Projects</h3>
+              <p class="price">32</p>
+              <small>↓ 5% this month</small>
+            </div>
+          </div>
+
+          <div class="growth-card">
+            <div class="sign-icon">
+              <i class="fa-solid fa-chart-line"></i>
+            </div>
+
+            <div class="card-content">
+              <h3 class="rev">Monthly Growth</h3>
+              <p class="price">18.2%</p>
+              <small>↑ 12% this month</small>
+            </div>
+          </div>
+        </div>
+        <!-- Projects Section -->
+
+        <div class="grid">
+          <div class="projects-table">
+            <div class="tbl-header">
+              <h3>Recent Projects</h3>
+              <button>View all</button>
+            </div>
+            <table>
+              <thead>
+                <tr>
+                  <th>Project Name</th>
+                  <th>Client</th>
+                  <th>Status</th>
+                  <th>Deadline</th>
+                  <th>Budget</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Website Redesign</td>
+                  <td>TechNova Inc.</td>
+                  <td>In progress</td>
+                  <td>May 15, 2025</td>
+                  <td>$4,500</td>
+                </tr>
+                <tr>
+                  <td>Mobile App Development</td>
+                  <td>Appex Corp.</td>
+                  <td>In Progress</td>
+                  <td>May 22, 2025</td>
+                  <td>$8,000</td>
+                </tr>
+                <tr>
+                  <td>E-commerce Platform</td>
+                  <td>ShopNest</td>
+                  <td>Completed</td>
+                  <td>Apr 28, 2025</td>
+                  <td>$6,200</td>
+                </tr>
+                <tr>
+                  <td>CRM Dashboard</td>
+                  <td>DataPro Ltd.</td>
+                  <td>In Progress</td>
+                  <td>May 30, 2025</td>
+                  <td>$5,000</td>
+                </tr>
+                <tr>
+                  <td>Marketing Website</td>
+                  <td>Brandify</td>
+                  <td>Pending</td>
+                  <td>Jun 10, 2025</td>
+                  <td>$3,800</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+
+          <!-- Project Completion Section -->
+
+          <section class="progress-sec">
+            <div class="progress-content">
+              <h4>Project Completion</h4>
+              <button>View all</button>
+            </div>
+
+            <div class="wrap">
+              <label for="website">Website Redesign <small>80%</small></label>
+              <progress value="80" max="100"></progress>
+            </div>
+
+            <div class="wrap">
+              <label for="mobile"
+                >Mobile App Development <small>65%</small></label
+              >
+              <progress value="65" max="100"></progress>
+            </div>
+
+            <div class="wrap">
+              <label for="crm">CRM Dashboard <small>90%</small></label>
+              <progress value="90" max="100"></progress>
+            </div>
+
+            <div class="wrap">
+              <label for="e-commerce"
+                >E-commerce Platform <small>40%</small></label
+              >
+              <progress value="40" max="100"></progress>
+            </div>
+          </section>
+
+          <!-- Section 4 -->
+
+          <section class="revenue-sec">
+            <div class="revenue-crd">
+              <h4>Revenue Overview</h4>
+              <button>This Month</button>
+            </div>
+            <p>$12,450</p>
+            <small class="revenue">↑ 18% from last month</small>
+            <figure>
+              <img src="./Img/chart2.png" alt="chart image" />
+            </figure>
+          </section>
+
+          <!-- Section 5 -->
+
+          <section class="client-crd">
+            <div class="client-feed">
+              <h4>Clients by Industry</h4>
+              <button>View all</button>
+            </div>
+
+            <figure>
+              <img src="./Img/cl-by-inds.png" alt="A chart showing growth" />
+            </figure>
+          </section>
+
+          <!-- Section 6 -->
+
+          <section class="activity-crd">
+            <div class="activity-btn-wrap">
+              <h4>Activity Feed</h4>
+              <button>View all</button>
+            </div>
+
+            <div class="act-wrap">
+              <i class="fa fa-user-plus"></i>
+              <div class="content">
+                <p>
+                  New client registered
+                  <small class>2m ago</small>
+                </p>
+                <small>TechNova inc. joined the platform</small>
+              </div>
+            </div>
+
+            <div class="act-wrap">
+              <i class="fa-solid fa-dollar-sign"></i>
+              <div class="content">
+                <p>Payment received <small>15m ago</small></p>
+                <small>$4,500 from Appex Corp.</small>
+              </div>
+            </div>
+
+            <div class="act-wrap">
+              <i class="fa-solid fa-sync-alt"></i>
+              <div class="content">
+                <p>Project updated <small>1h ago</small></p>
+                <small>CRM Dashboard progress updated</small>
+              </div>
+            </div>
+
+            <div class="act-wrap">
+              <i class="fa-solid fa-check-circle"></i>
+              <div class="content">
+                <p>Task completed <small>3h ago</small></p>
+                <small>Design approval for Brandify project</small>
+              </div>
+            </div>
+          </section>
+        </div>
+      </main>
+
+      <!-- Footer -->
+
+      <footer>
+        <div class="copyright">&copy; 2025 DevLit. All rights reserved.</div>
+
+        <div class="xtra-links">
+          <nav class="footer-nav">
+            <ul>
+              <li><a href="#">Privacy Policy</a></li>
+              <li><a href="">Terms of Service</a></li>
+              <li><a href="#">Support</a></li>
+            </ul>
+          </nav>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>
