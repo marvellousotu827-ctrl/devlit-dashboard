@@ -1,6 +1,6 @@
 # Devlit Dashboard
 
-A responsive frontend dashboard built with HTML and CSS (and JavaScript if applicable).  
+A responsive frontend dashboard built with HTML and CSS.  
 This project focuses on layout design, UI structure, and clean component styling.
 
 ---
@@ -22,4 +22,4 @@ This project focuses on layout design, UI structure, and clean component styling
 
 ---
 
-##  Project Structure
+
